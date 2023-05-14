@@ -58,4 +58,13 @@ class ZappingTest {
         assertEquals(resultadoReal,resultadoEsperado);
     }
 
+    @Test
+    public void test7(){
+
+        int resultadoReal= Zapping.cambioCanal(1,51);
+        int resultadoEsperado = 49;
+
+        assertEquals(resultadoReal,resultadoEsperado);
+    }
+
 }
